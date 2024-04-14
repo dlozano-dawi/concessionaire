@@ -1,4 +1,4 @@
-package vehicles.Types;
+package vehicles.types;
 
 import vehicles.MotorbikesAbstractClass;
 
