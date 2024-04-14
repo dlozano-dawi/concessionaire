@@ -5,12 +5,14 @@ también pide poder almacenarlos en listas para cada tipo.
 
 ### Se dividirá en:
 
-#### Una clase abstracta para cada grupo de vehiculos (coches y motos)
+#### Una clase abstracta de vehiculos y una clase abstracta para cada grupo de vehiculos (coches y motos)
+#### La clase abstracta de vehiculos tendrá
+- Arrancar
+- Apagar
+- Marca
+- Modelo
 #### La clase abstracta de coches tendrá
 - Caballos
-- Arrancar
-- Encender
-- Apagar
 #### Las clases que extenderán esta serán:
 - Coches
   - Puertas
@@ -20,3 +22,12 @@ también pide poder almacenarlos en listas para cada tipo.
   - Carreras ganadas
   - Mundiales ganados
   - Velocidad punta
+#### La clase abstracta de motos tendrá
+- Cilindrada
+- Categoria (Scooter, etc...)
+- Ruedas
+- KMs
+#### Las clases que extenderán esta serán:
+- Motos
+  - Caballos
+- Motocicleta
