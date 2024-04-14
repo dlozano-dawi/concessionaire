@@ -1,14 +1,14 @@
 package vehicles;
 
 public abstract class MotorbikesAbstractClass{
-    public double displacement;
-    public String category;
-    public int numberOfWheels;
-    public double kms;
-    public boolean started;
-    public String brand;
-    public String model;
-    public double price;
+    protected double displacement;
+    protected String category;
+    protected int numberOfWheels;
+    protected double kms;
+    protected boolean started;
+    protected String brand;
+    protected String model;
+    protected double price;
 
     public boolean isStarted() {
         return started;

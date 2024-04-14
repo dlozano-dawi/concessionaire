@@ -11,13 +11,16 @@ public class Cars extends CarsAbstractClass{
         this.doors = doors;
         this.category = category;
         this.kms = kms;
-        super.hp = hp;
-        super.started = started;
-        super.brand = brand;
-        super.model = model;
-        super.price = price;
+        this.hp = hp;
+        this.started = started;
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
     }
-    
+    @Override
+    public String toString() {
+        return "Brand: " + this.brand + ", Model: " + this.model + ", Price: " + this.price + ", HP: " + this.hp + ", Category: " + this.category + ", Doors: " + this.doors + ", Started: " + this.started + ", KMs: " + this.kms;
+    }
     public int getDoors() {
         return doors;
     }

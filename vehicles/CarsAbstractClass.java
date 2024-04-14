@@ -1,20 +1,22 @@
 package vehicles;
 
 public abstract class CarsAbstractClass {
-    public double hp;
-    public boolean started;
-    public String brand;
-    public String model;
-    public double price;
+    protected double hp;
+    protected boolean started;
+    protected String brand;
+    protected String model;
+    protected double price;
 
     public boolean isStarted() {
         return started;
     }
-    public void turnOn() {
+    public String turnOn() {
         this.started = true;
+        return "Turned On";
     }
-    public void turnOff() {
+    public String turnOff() {
         this.started = false;
+        return "Turned Off";
     }
     public String getBrand() {
         return brand;
