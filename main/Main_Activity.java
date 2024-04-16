@@ -35,6 +35,7 @@ public class Main_Activity {
         int option = -1; 
         
         while (option != 0) {
+            System.out.println("~~~~~~~~~~~~~~~~CAR'S MENU~~~~~~~~~~~~~~~~");
             System.out.println("1. Añadir un coche");
             System.out.println("2. Mostrar lista de coches (Mayor a Menor)");
             System.out.println("3. Mostrar lista de coches (Menor a Mayor)");
