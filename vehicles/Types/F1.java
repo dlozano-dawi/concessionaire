@@ -17,10 +17,14 @@ public class F1 extends CarsAbstractClass{
         this.model = model;
         this.price = price;
     }
+    
     @Override
     public String toString() {
-        return "Brand: " + this.brand + ", Model: " + this.model + ", Price: " + this.price + ", HP: " + this.hp + ", ChampionshipsWinned: " + this.championshipsWinned + ", RacesWinned: " + this.racesWinned + ", Started: " + this.started + ", TopSpeed: " + this.topSpeed;
+        return "F1 [hp=" + hp + ", started=" + started + ", racesWinned=" + racesWinned + ", championshipsWinned="
+                + championshipsWinned + ", brand=" + brand + ", topSpeed=" + topSpeed + ", model=" + model + ", price="
+                + price + "]";
     }
+
     public int getRacesWined() {
         return racesWinned;
     }

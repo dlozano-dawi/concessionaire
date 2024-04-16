@@ -10,10 +10,6 @@ import vehicles.types.Cars;
 public class CarLists implements VehiclesLists{
     List<Cars> carList = new ArrayList<Cars>();
 
-    // public CarLists(Cars car) {
-    //     this.carList.add(car);
-    // }
-
     public void setCarlist(Cars car) {
         this.carList.add(car);
     }
