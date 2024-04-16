@@ -10,7 +10,7 @@ import vehicles.types.Motorcicle;
 public class MotorcicleLists implements VehiclesLists{
     List<Motorcicle> motorcicleList = new ArrayList<Motorcicle>();
 
-    public void setmotorciclelist(Motorcicle motorcicle) {
+    public void setMotorciclelist(Motorcicle motorcicle) {
         this.motorcicleList.add(motorcicle);
     }
     

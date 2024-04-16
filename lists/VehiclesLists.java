@@ -13,4 +13,7 @@ public interface VehiclesLists {
     public static String limitMax(double max) {
         return null;
     } 
+    public static String limitMinAndMax(double min, double max) {
+        return null;
+    } 
 }

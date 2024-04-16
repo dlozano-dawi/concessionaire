@@ -9,6 +9,7 @@ public class carsTest {
     @Test  
     public void testAddCars() {  
         Cars nissanSilvia = new Cars(2, "Coupe", 100000, 270, false, "Nissan", "Silvia 240sx", 20000);
+        // "Founds: \n Nissan Silvia 240sx 25000.0 \n Nissan 370z 21000.0 \n Lexus LFA 20000.0 \n Honda Prelude 5000.0 \n Toyota Celica 4000.0"
 
         assertEquals(2, nissanSilvia.getDoors());  
         assertEquals("Coupe", nissanSilvia.getCategory());  
